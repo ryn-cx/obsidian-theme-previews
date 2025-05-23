@@ -1,0 +1,98 @@
+:root {
+    --settings-related-modal-width: 80%;
+}
+
+.theme-dark {
+    --background-primary: #2B2F3A;
+    --background-primary-alt: #2B2F3A;
+    --background-secondary: #3A3F4C;
+    --background-secondary-alt: #3A3F4C;
+    --text-normal: #E5E7EB;
+    --text-muted: #9CA3AF;
+    --text-faint: #6B7280;
+    --accent-h: 160;
+    --accent-s: 20%;
+    --accent-l: 45%;
+    --color-red: #B75C5C;
+    --color-red-rgb: 183, 92, 92;
+    --color-orange: #C48A6A;
+    --color-orange-rgb: 196, 138, 106;
+    --color-yellow: #D1B97F;
+    --color-yellow-rgb: 209, 185, 127;
+    --color-green: #6C8E7D;
+    --color-green-rgb: 108, 142, 125;
+    --color-cyan: #5C9E9E;
+    --color-cyan-rgb: 92, 158, 158;
+    --color-blue: #5A78A0;
+    --color-blue-rgb: 90, 120, 160;
+    --color-purple: #7D6C9C;
+    --color-purple-rgb: 125, 108, 156;
+    --color-pink: #A37D9C;
+    --color-pink-rgb: 163, 125, 156;
+    --h1-color: #A3B6B4;
+    --h2-color: #5E8290;
+    --h3-color: #8DA89C;
+    --h4-color: #5F8F78;
+    --h5-color: #798782;
+    --h6-color: #4B6C5C;
+}
+
+.theme-light {
+
+}
+
+.workspace {
+    > .workspace-ribbon {
+        display: none;
+    }
+
+    > .mod-left-split {
+        min-width: 375px;
+        max-width: 375px;
+    }
+
+    > .mod-right-split {
+        min-width: 375px;
+        max-width: 375px;
+    }
+
+    > .mod-left-split, .mod-right-split {
+        .view-content {
+            padding: 16px;
+        }
+    }
+}
+
+/* Add a width constraint to settings modal. */
+.mod-settings {
+    min-width: var(--settings-related-modal-width);
+}
+
+/* Add a width constraint to community modals (plugins & themes). */
+.mod-community-modal {
+    min-width: var(--settings-related-modal-width);
+}
+
+/* Useful for bypassing "Show inline title" setting sync when using a custom sync service. */
+.inline-title {
+    display: none !important;
+}
+
+/* Useful for bypassing "Properties in document" setting sync when using a custom sync service. */
+.workspace-leaf-content[data-mode="preview"] .mod-header > .metadata-container,
+.workspace-leaf-content[data-mode="source"] .cm-sizer > .metadata-container {
+    display: none !important;
+}
+
+/* Add vertical alignement to Calendar plugin's reset button. */
+#calendar-container .right-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Applied to make a note span the full width available. */
+.wide-page, .page-large {
+    --file-line-width: 100%;
+}
