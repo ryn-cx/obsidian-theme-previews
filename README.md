@@ -27,6 +27,9 @@ This project provides an interactive way to preview Obsidian themes before insta
 
 If you would like a specific page added to the example Vault create a GitHub issue with the markdown version of the page.
 
+## Known Issues
+Theme previews are not always perfectly accurate and there may be minor visual differences.
+
 ## Credits
 
 - All theme creators who have contributed to the Obsidian community
