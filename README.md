@@ -1,3 +1,5 @@
+# [[CLICK HERE TO PREVIEW ALL THEMES FOR OBSIDIAN]](https://ryn-cx.github.io/obsidian-theme-previews/)
+
 # Obsidian Themes Preview
 
 A web-based gallery that showcases all available themes for [Obsidian](https://obsidian.md) using an example vault to help users visualize and select their ideal theme.
