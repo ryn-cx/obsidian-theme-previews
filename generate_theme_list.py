@@ -4,7 +4,7 @@ from pathlib import Path
 
 def generate_theme_list(themes_dir: Path) -> None:
     current_dir = Path(__file__).parent
-    themes_dir = current_dir / "themes"
+    themes_dir = current_dir / "docs/themes"
     themes = [folder.name for folder in themes_dir.iterdir() if folder.is_dir()]
 
     # Bring default to the top of the list to make the theme correct on the first load.
