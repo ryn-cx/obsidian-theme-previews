@@ -1,4 +1,4 @@
-# [[CLICK HERE TO PREVIEW ALL THEMES FOR OBSIDIAN]](https://ryn-cx.github.io/obsidian-theme-previews/)
+# [CLICK HERE TO PREVIEW ALL THEMES FOR OBSIDIAN](https://ryn-cx.github.io/obsidian-theme-previews/)
 
 # Obsidian Themes Preview
 
