@@ -12,7 +12,7 @@ function setupThemeSelector() {
     // Create all of the options to choose from
     themes.forEach(theme => {
         const option = document.createElement('option');
-        option.value = `https://ryn-cx.github.io/Obsidian-Theme-Previews/themes/${theme}/theme.css`;
+        option.value = `https://ryn-cx.github.io/obsidian-theme-previews/themes/${theme}/theme.css`;
         option.textContent = theme;
         themeSelector.appendChild(option);
     });
@@ -27,7 +27,7 @@ function setupThemeSelector() {
 function applyTheme(themeName) {
     // Load theme
     const existingThemeLinks = document.querySelector('link[rel="stylesheet"]');
-    existingThemeLinks.href = `https://ryn-cx.github.io/Obsidian-Theme-Previews/themes/${themeName}/theme.css`;
+    existingThemeLinks.href = `https://ryn-cx.github.io/obsidian-theme-previews/themes/${themeName}/theme.css`;
 
     // Add theme to URL
     const url = new URL(window.location);

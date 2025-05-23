@@ -40,7 +40,7 @@ def modify_html_file(file_path: Path) -> None:
 
     # Add theme-selector.js loading to the head
     theme_script = soup.select_one(
-        'head script[src="https://ryn-cx.github.io/Obsidian-Theme-Previews/theme-selector.js"]'
+        'head script[src="https://ryn-cx.github.io/obsidian-theme-previews/theme-selector.js"]'
     )
     if not theme_script:
         head = soup.select_one("head")
@@ -50,7 +50,7 @@ def modify_html_file(file_path: Path) -> None:
 
         new_script = soup.new_tag("script")
         new_script["src"] = (
-            "https://ryn-cx.github.io/Obsidian-Theme-Previews/theme-selector.js"
+            "https://ryn-cx.github.io/obsidian-theme-previews/theme-selector.js"
         )
         head.append(new_script)
 
