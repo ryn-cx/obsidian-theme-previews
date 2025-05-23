@@ -1,6 +1,6 @@
 {
   "vaultName": "Obsidian",
-  "lastExport": 1747980290480,
+  "lastExport": 1747981371969,
   "pluginVersion": "1.8.01",
   "validBodyClasses": "publish css-settings-manager theme-dark show-inline-title show-ribbon",
   "useCustomHeadContent": false,
@@ -362,1891 +362,1891 @@
   ],
   "fileInfo": {
     "lib/fonts/94f2f163d4b698242fef.otf": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 66800,
       "exportedPath": "lib/fonts/94f2f163d4b698242fef.otf",
       "dependencies": []
     },
     "lib/fonts/72505e6a122c6acd5471.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 104232,
       "exportedPath": "lib/fonts/72505e6a122c6acd5471.woff2",
       "dependencies": []
     },
     "lib/fonts/2d5198822ab091ce4305.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 104332,
       "exportedPath": "lib/fonts/2d5198822ab091ce4305.woff2",
       "dependencies": []
     },
     "lib/fonts/c8ba52b05a9ef10f4758.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 98868,
       "exportedPath": "lib/fonts/c8ba52b05a9ef10f4758.woff2",
       "dependencies": []
     },
     "lib/fonts/cb10ffd7684cd9836a05.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 106876,
       "exportedPath": "lib/fonts/cb10ffd7684cd9836a05.woff2",
       "dependencies": []
     },
     "lib/fonts/b5f0f109bc88052d4000.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 105804,
       "exportedPath": "lib/fonts/b5f0f109bc88052d4000.woff2",
       "dependencies": []
     },
     "lib/fonts/cbe0ae49c52c920fd563.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 106108,
       "exportedPath": "lib/fonts/cbe0ae49c52c920fd563.woff2",
       "dependencies": []
     },
     "lib/fonts/535a6cf662596b3bd6a6.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 111708,
       "exportedPath": "lib/fonts/535a6cf662596b3bd6a6.woff2",
       "dependencies": []
     },
     "lib/fonts/70cc7ff27245e82ad414.ttf": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 192740,
       "exportedPath": "lib/fonts/70cc7ff27245e82ad414.ttf",
       "dependencies": []
     },
     "lib/fonts/454577c22304619db035.ttf": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 161376,
       "exportedPath": "lib/fonts/454577c22304619db035.ttf",
       "dependencies": []
     },
     "lib/fonts/52ac8f3034507f1d9e53.ttf": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 191568,
       "exportedPath": "lib/fonts/52ac8f3034507f1d9e53.ttf",
       "dependencies": []
     },
     "lib/fonts/05b618077343fbbd92b7.ttf": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 155288,
       "exportedPath": "lib/fonts/05b618077343fbbd92b7.ttf",
       "dependencies": []
     },
     "lib/fonts/4bb6ac751d1c5478ff3a.woff2": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 7876,
       "exportedPath": "lib/fonts/4bb6ac751d1c5478ff3a.woff2",
       "dependencies": []
     },
     "lib/media/6155340132a851f6089e.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 315,
       "exportedPath": "lib/media/6155340132a851f6089e.svg",
       "dependencies": []
     },
     "lib/fonts/MathJax_Zero.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1368,
       "exportedPath": "lib/fonts/MathJax_Zero.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 34160,
       "exportedPath": "lib/fonts/MathJax_Main-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Bold.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 34464,
       "exportedPath": "lib/fonts/MathJax_Main-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-Italic.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 19360,
       "exportedPath": "lib/fonts/MathJax_Math-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Main-Italic.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 20832,
       "exportedPath": "lib/fonts/MathJax_Main-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Math-BoldItalic.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 19776,
       "exportedPath": "lib/fonts/MathJax_Math-BoldItalic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size1-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5792,
       "exportedPath": "lib/fonts/MathJax_Size1-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size2-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5464,
       "exportedPath": "lib/fonts/MathJax_Size2-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size3-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3244,
       "exportedPath": "lib/fonts/MathJax_Size3-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Size4-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5148,
       "exportedPath": "lib/fonts/MathJax_Size4-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_AMS-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 40808,
       "exportedPath": "lib/fonts/MathJax_AMS-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 9600,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Calligraphic-Bold.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 9908,
       "exportedPath": "lib/fonts/MathJax_Calligraphic-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 21480,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Fraktur-Bold.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 22340,
       "exportedPath": "lib/fonts/MathJax_Fraktur-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 12660,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Bold.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 15944,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Bold.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_SansSerif-Italic.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 14628,
       "exportedPath": "lib/fonts/MathJax_SansSerif-Italic.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Script-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 11852,
       "exportedPath": "lib/fonts/MathJax_Script-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Typewriter-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 17604,
       "exportedPath": "lib/fonts/MathJax_Typewriter-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Regular.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1136,
       "exportedPath": "lib/fonts/MathJax_Vector-Regular.woff",
       "dependencies": []
     },
     "lib/fonts/MathJax_Vector-Bold.woff": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1116,
       "exportedPath": "lib/fonts/MathJax_Vector-Bold.woff",
       "dependencies": []
     },
     "Obsidian Help/Attachments/audio/Excerpt from Mother of All Demos (1968).ogg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 320148,
       "exportedPath": "Obsidian Help/Attachments/audio/Excerpt from Mother of All Demos (1968).ogg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-align-left.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 282,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-align-left.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-binary.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 396,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-binary.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-book-icon.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 328,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-book-icon.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-bookmark.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 284,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-bookmark.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-bookmark-plus.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 365,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-bookmark-plus.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-calendar.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 327,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-calendar.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-chevron-left.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 251,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-chevron-left.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-chevron-right.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 251,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-chevron-right.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-chevrons-up-down.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 278,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-chevrons-up-down.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-circle-play.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 297,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-circle-play.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-code-xml.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 315,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-code-xml.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-cog.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 464,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-cog.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-edit-3.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 309,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-edit-3.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-ellipsis-vertical.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 322,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-ellipsis-vertical.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-file-search.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 354,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-file-search.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-filter.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 281,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-filter.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-folder-open.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 414,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-folder-open.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-folder-plus.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 393,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-folder-plus.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-git-fork.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 367,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-git-fork.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-help-circle.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 313,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-help-circle.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-history.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 324,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-history.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-layout-dashboard.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 420,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-layout-dashboard.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-maximize.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 363,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-maximize.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-menu.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 251,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-menu.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-mic.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 357,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-mic.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-minus.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 238,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-minus.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-minus-circle.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 275,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-minus-circle.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-monitor-check.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 326,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-monitor-check.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-monitor-x.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 332,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-monitor-x.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-more-horizontal.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 320,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-more-horizontal.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-palette.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 668,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-palette.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-panels-top-left.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 315,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-panels-top-left.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-pen-line.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 482,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-pen-line.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-pencil.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 287,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-pencil.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-plus.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 257,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-plus.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-plus-circle.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 281,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-plus-circle.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-refresh-cw.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 391,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-refresh-cw.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-repeat.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 342,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-repeat.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-search.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 276,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-search.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-send.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 258,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-send.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-settings.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 828,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-settings.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-sliders-horizontal.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 570,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-sliders-horizontal.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-terminal.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 252,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-terminal.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-trash-2.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 358,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-trash-2.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-users.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 360,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-users.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-wrench.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 383,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-wrench.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/lucide-x.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 246,
       "exportedPath": "Obsidian Help/Attachments/icons/lucide-x.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-dice.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 743,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-dice.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-help.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 580,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-help.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-side-bar-left.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 331,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-side-bar-left.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-side-bar-right.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 333,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-side-bar-right.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-sync-disconnected.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 521,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-sync-disconnected.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-sync-paused.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 379,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-sync-paused.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-sync-synced.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 377,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-sync-synced.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-sync-syncing.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 722,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-sync-syncing.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-icon-vault-switcher.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 437,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-icon-vault-switcher.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-links-coming-in.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1151,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-links-coming-in.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-links-going-out.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1151,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-links-going-out.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-sheets-in-box.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 747,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-sheets-in-box.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-smartphone.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 325,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-smartphone.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-smartphone-x.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 362,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-smartphone-x.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/icons/obsidian-upper-lowercase.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 655,
       "exportedPath": "Obsidian Help/Attachments/icons/obsidian-upper-lowercase.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/video/web-clipper-interpreter-demo.mp4": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6659041,
       "exportedPath": "Obsidian Help/Attachments/video/web-clipper-interpreter-demo.mp4",
       "dependencies": []
     },
     "Obsidian Help/Attachments/2025-05-21-bases-noshadow.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 233562,
       "exportedPath": "Obsidian Help/Attachments/2025-05-21-bases-noshadow.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/application-installer-current-version.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 144342,
       "exportedPath": "Obsidian Help/Attachments/application-installer-current-version.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Backlinks.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 88211,
       "exportedPath": "Obsidian Help/Attachments/Backlinks.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/daily-notes-and-date-properties.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8433,
       "exportedPath": "Obsidian Help/Attachments/daily-notes-and-date-properties.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Editor update chart.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 14818,
       "exportedPath": "Obsidian Help/Attachments/Editor update chart.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Engelbart.jpg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 10720,
       "exportedPath": "Obsidian Help/Attachments/Engelbart.jpg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/help-support-console-menu.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 37275,
       "exportedPath": "Obsidian Help/Attachments/help-support-console-menu.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Insert alises.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 9089,
       "exportedPath": "Obsidian Help/Attachments/Insert alises.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Insider.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 14124,
       "exportedPath": "Obsidian Help/Attachments/Insider.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/internal-links-header.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 56477,
       "exportedPath": "Obsidian Help/Attachments/internal-links-header.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/link-block-heading.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 93871,
       "exportedPath": "Obsidian Help/Attachments/link-block-heading.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/link-to-a-double-block.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 198018,
       "exportedPath": "Obsidian Help/Attachments/link-to-a-double-block.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/linking-to-a-header-with-double-hashtags.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 204729,
       "exportedPath": "Obsidian Help/Attachments/linking-to-a-header-with-double-hashtags.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Live preview.gif": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 59232,
       "exportedPath": "Obsidian Help/Attachments/Live preview.gif",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Mac-OS-DateTime.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 218847,
       "exportedPath": "Obsidian Help/Attachments/Mac-OS-DateTime.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/notion-export.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 170391,
       "exportedPath": "Obsidian Help/Attachments/notion-export.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/obsidian-graph-view.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 83340,
       "exportedPath": "Obsidian Help/Attachments/obsidian-graph-view.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/obsidian-lockup-help.svg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3362,
       "exportedPath": "Obsidian Help/Attachments/obsidian-lockup-help.svg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/OneNote-Importer-Open-Link.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 48891,
       "exportedPath": "Obsidian Help/Attachments/OneNote-Importer-Open-Link.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/OneNote-Importer-Select-Sections.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 214161,
       "exportedPath": "Obsidian Help/Attachments/OneNote-Importer-Select-Sections.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 1.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6384,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 1.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 3.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6950,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 3.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 4.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8965,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 4.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 5.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 20966,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 5.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 6.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4821,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 6.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 7.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5428,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 7.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 8.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1346,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 8.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 9.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 15874,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 9.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 11.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8497,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 11.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 13.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 27593,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 13.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 14.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 18505,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 14.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 15.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 12548,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 15.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 16.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 9628,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 16.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 17.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2945,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 17.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 18.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 22863,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 18.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Pasted image 19.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 12866,
       "exportedPath": "Obsidian Help/Attachments/Pasted image 19.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/ribbon-rearrange-visibility.jpeg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 25392,
       "exportedPath": "Obsidian Help/Attachments/ribbon-rearrange-visibility.jpeg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Roam-exporting.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8013,
       "exportedPath": "Obsidian Help/Attachments/Roam-exporting.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Roam-Importer-importing.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 171662,
       "exportedPath": "Obsidian Help/Attachments/Roam-Importer-importing.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Search.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 17951,
       "exportedPath": "Obsidian Help/Attachments/Search.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/search-query-rendered.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 32006,
       "exportedPath": "Obsidian Help/Attachments/search-query-rendered.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Source view.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 11253,
       "exportedPath": "Obsidian Help/Attachments/Source view.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/status-bar-desktop.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5550,
       "exportedPath": "Obsidian Help/Attachments/status-bar-desktop.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/status-bar-mobile.jpeg": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5885,
       "exportedPath": "Obsidian Help/Attachments/status-bar-mobile.jpeg",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Style-guide-modal-example.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 118952,
       "exportedPath": "Obsidian Help/Attachments/Style-guide-modal-example.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/style-guide-pointing-out-word-count.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 11319,
       "exportedPath": "Obsidian Help/Attachments/style-guide-pointing-out-word-count.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Style-guide-zoomed-example.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8417,
       "exportedPath": "Obsidian Help/Attachments/Style-guide-zoomed-example.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Sync Canvas-dark.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 349585,
       "exportedPath": "Obsidian Help/Attachments/Sync Canvas-dark.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/sync-regional-sync-servers.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 46155,
       "exportedPath": "Obsidian Help/Attachments/sync-regional-sync-servers.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Vault picker.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 43837,
       "exportedPath": "Obsidian Help/Attachments/Vault picker.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/version-history-collaboration.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 128048,
       "exportedPath": "Obsidian Help/Attachments/version-history-collaboration.png",
       "dependencies": []
     },
     "Obsidian Help/Attachments/Windows-OS-DateTime.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 30574,
       "exportedPath": "Obsidian Help/Attachments/Windows-OS-DateTime.png",
       "dependencies": []
     },
     "Obsidian Help/Contributing to Obsidian/Developers.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1451,
       "exportedPath": "Obsidian Help/Contributing to Obsidian/Developers.html",
       "dependencies": []
     },
     "Obsidian Help/Contributing to Obsidian/Financial contributions.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 816,
       "exportedPath": "Obsidian Help/Contributing to Obsidian/Financial contributions.html",
       "dependencies": []
     },
     "Obsidian Help/Contributing to Obsidian/Style guide.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 11407,
       "exportedPath": "Obsidian Help/Contributing to Obsidian/Style guide.html",
       "dependencies": []
     },
     "Obsidian Help/Contributing to Obsidian/Translations.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 584,
       "exportedPath": "Obsidian Help/Contributing to Obsidian/Translations.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Advanced formatting syntax.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5531,
       "exportedPath": "Obsidian Help/Editing and formatting/Advanced formatting syntax.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Attachments.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1770,
       "exportedPath": "Obsidian Help/Editing and formatting/Attachments.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Basic formatting syntax.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 13356,
       "exportedPath": "Obsidian Help/Editing and formatting/Basic formatting syntax.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Callouts.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4966,
       "exportedPath": "Obsidian Help/Editing and formatting/Callouts.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Edit and preview Markdown.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2138,
       "exportedPath": "Obsidian Help/Editing and formatting/Edit and preview Markdown.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Editing shortcuts.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4680,
       "exportedPath": "Obsidian Help/Editing and formatting/Editing shortcuts.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Embed web pages.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1401,
       "exportedPath": "Obsidian Help/Editing and formatting/Embed web pages.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Folding.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1192,
       "exportedPath": "Obsidian Help/Editing and formatting/Folding.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/HTML content.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1811,
       "exportedPath": "Obsidian Help/Editing and formatting/HTML content.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Multiple cursors.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 706,
       "exportedPath": "Obsidian Help/Editing and formatting/Multiple cursors.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Obsidian Flavored Markdown.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1878,
       "exportedPath": "Obsidian Help/Editing and formatting/Obsidian Flavored Markdown.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Properties.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8512,
       "exportedPath": "Obsidian Help/Editing and formatting/Properties.html",
       "dependencies": []
     },
     "Obsidian Help/Editing and formatting/Tags.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1857,
       "exportedPath": "Obsidian Help/Editing and formatting/Tags.html",
       "dependencies": []
     },
     "Obsidian Help/Extending Obsidian/Community plugins.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2577,
       "exportedPath": "Obsidian Help/Extending Obsidian/Community plugins.html",
       "dependencies": []
     },
     "Obsidian Help/Extending Obsidian/CSS snippets.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4483,
       "exportedPath": "Obsidian Help/Extending Obsidian/CSS snippets.html",
       "dependencies": []
     },
     "Obsidian Help/Extending Obsidian/Obsidian URI.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 7540,
       "exportedPath": "Obsidian Help/Extending Obsidian/Obsidian URI.html",
       "dependencies": []
     },
     "Obsidian Help/Extending Obsidian/Plugin security.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2283,
       "exportedPath": "Obsidian Help/Extending Obsidian/Plugin security.html",
       "dependencies": []
     },
     "Obsidian Help/Extending Obsidian/Themes.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1557,
       "exportedPath": "Obsidian Help/Extending Obsidian/Themes.html",
       "dependencies": []
     },
     "Obsidian Help/Files and folders/Accepted file formats.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1083,
       "exportedPath": "Obsidian Help/Files and folders/Accepted file formats.html",
       "dependencies": []
     },
     "Obsidian Help/Files and folders/Configuration folder.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 899,
       "exportedPath": "Obsidian Help/Files and folders/Configuration folder.html",
       "dependencies": []
     },
     "Obsidian Help/Files and folders/How Obsidian stores data.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3473,
       "exportedPath": "Obsidian Help/Files and folders/How Obsidian stores data.html",
       "dependencies": []
     },
     "Obsidian Help/Files and folders/Manage notes.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1699,
       "exportedPath": "Obsidian Help/Files and folders/Manage notes.html",
       "dependencies": []
     },
     "Obsidian Help/Files and folders/Manage vaults.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4379,
       "exportedPath": "Obsidian Help/Files and folders/Manage vaults.html",
       "dependencies": []
     },
     "Obsidian Help/Files and folders/Symbolic links and junctions.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2563,
       "exportedPath": "Obsidian Help/Files and folders/Symbolic links and junctions.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Back up your Obsidian files.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6066,
       "exportedPath": "Obsidian Help/Getting started/Back up your Obsidian files.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Create a vault.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1055,
       "exportedPath": "Obsidian Help/Getting started/Create a vault.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Create your first note.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1273,
       "exportedPath": "Obsidian Help/Getting started/Create your first note.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Download and install Obsidian.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3229,
       "exportedPath": "Obsidian Help/Getting started/Download and install Obsidian.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Glossary.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4787,
       "exportedPath": "Obsidian Help/Getting started/Glossary.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Import notes.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2515,
       "exportedPath": "Obsidian Help/Getting started/Import notes.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Link notes.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2991,
       "exportedPath": "Obsidian Help/Getting started/Link notes.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Sandbox vault.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1230,
       "exportedPath": "Obsidian Help/Getting started/Sandbox vault.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Sync your notes across devices.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 12481,
       "exportedPath": "Obsidian Help/Getting started/Sync your notes across devices.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Update Obsidian.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2522,
       "exportedPath": "Obsidian Help/Getting started/Update Obsidian.html",
       "dependencies": []
     },
     "Obsidian Help/Getting started/Use the mobile app.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3505,
       "exportedPath": "Obsidian Help/Getting started/Use the mobile app.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Apple Notes.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2555,
       "exportedPath": "Obsidian Help/Import notes/Import from Apple Notes.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Bear.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1337,
       "exportedPath": "Obsidian Help/Import notes/Import from Bear.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Craft.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 807,
       "exportedPath": "Obsidian Help/Import notes/Import from Craft.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Evernote.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2485,
       "exportedPath": "Obsidian Help/Import notes/Import from Evernote.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Google Keep.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1588,
       "exportedPath": "Obsidian Help/Import notes/Import from Google Keep.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Microsoft OneNote.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3143,
       "exportedPath": "Obsidian Help/Import notes/Import from Microsoft OneNote.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Notion.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2823,
       "exportedPath": "Obsidian Help/Import notes/Import from Notion.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import from Roam Research.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1337,
       "exportedPath": "Obsidian Help/Import notes/Import from Roam Research.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import HTML files.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1389,
       "exportedPath": "Obsidian Help/Import notes/Import HTML files.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import Markdown files.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 729,
       "exportedPath": "Obsidian Help/Import notes/Import Markdown files.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import Textbundle files.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1620,
       "exportedPath": "Obsidian Help/Import notes/Import Textbundle files.html",
       "dependencies": []
     },
     "Obsidian Help/Import notes/Import Zettelkasten notes.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1314,
       "exportedPath": "Obsidian Help/Import notes/Import Zettelkasten notes.html",
       "dependencies": []
     },
     "Obsidian Help/Licenses and payment/Catalyst license.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3036,
       "exportedPath": "Obsidian Help/Licenses and payment/Catalyst license.html",
       "dependencies": []
     },
     "Obsidian Help/Licenses and payment/Education and non-profit discount.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3121,
       "exportedPath": "Obsidian Help/Licenses and payment/Education and non-profit discount.html",
       "dependencies": []
     },
     "Obsidian Help/Licenses and payment/Introduction to licenses and payment.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2649,
       "exportedPath": "Obsidian Help/Licenses and payment/Introduction to licenses and payment.html",
       "dependencies": []
     },
     "Obsidian Help/Licenses and payment/Obsidian Credit.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2868,
       "exportedPath": "Obsidian Help/Licenses and payment/Obsidian Credit.html",
       "dependencies": []
     },
     "Obsidian Help/Licenses and payment/Refund policy.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2674,
       "exportedPath": "Obsidian Help/Licenses and payment/Refund policy.html",
       "dependencies": []
     },
     "Obsidian Help/Licenses and payment/Sales tax.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2248,
       "exportedPath": "Obsidian Help/Licenses and payment/Sales tax.html",
       "dependencies": []
     },
     "Obsidian Help/Linking notes and files/Aliases.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1772,
       "exportedPath": "Obsidian Help/Linking notes and files/Aliases.html",
       "dependencies": []
     },
     "Obsidian Help/Linking notes and files/Embed files.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2660,
       "exportedPath": "Obsidian Help/Linking notes and files/Embed files.html",
       "dependencies": []
     },
     "Obsidian Help/Linking notes and files/Internal links.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 7734,
       "exportedPath": "Obsidian Help/Linking notes and files/Internal links.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/2-factor authentication.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4165,
       "exportedPath": "Obsidian Help/Obsidian/2-factor authentication.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/Android app.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2088,
       "exportedPath": "Obsidian Help/Obsidian/Android app.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/Community code of conduct.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 10532,
       "exportedPath": "Obsidian Help/Obsidian/Community code of conduct.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/Credits.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 7287,
       "exportedPath": "Obsidian Help/Obsidian/Credits.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/Early access versions.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3397,
       "exportedPath": "Obsidian Help/Obsidian/Early access versions.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/iOS app.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 286,
       "exportedPath": "Obsidian Help/Obsidian/iOS app.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/Obsidian.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3551,
       "exportedPath": "Obsidian Help/Obsidian/Obsidian.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian/Official website.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 470,
       "exportedPath": "Obsidian Help/Obsidian/Official website.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Analytics.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2213,
       "exportedPath": "Obsidian Help/Obsidian Publish/Analytics.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Collaborate on a Publish site.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2914,
       "exportedPath": "Obsidian Help/Obsidian Publish/Collaborate on a Publish site.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Custom domains.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 7150,
       "exportedPath": "Obsidian Help/Obsidian Publish/Custom domains.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Customize your site.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5495,
       "exportedPath": "Obsidian Help/Obsidian Publish/Customize your site.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Introduction to Obsidian Publish.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1222,
       "exportedPath": "Obsidian Help/Obsidian Publish/Introduction to Obsidian Publish.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Manage sites.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6911,
       "exportedPath": "Obsidian Help/Obsidian Publish/Manage sites.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Media files.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1667,
       "exportedPath": "Obsidian Help/Obsidian Publish/Media files.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Permalinks.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1965,
       "exportedPath": "Obsidian Help/Obsidian Publish/Permalinks.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Publish limitations.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2506,
       "exportedPath": "Obsidian Help/Obsidian Publish/Publish limitations.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Publish your content.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3794,
       "exportedPath": "Obsidian Help/Obsidian Publish/Publish your content.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Security and privacy.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2875,
       "exportedPath": "Obsidian Help/Obsidian Publish/Security and privacy.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/SEO.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2077,
       "exportedPath": "Obsidian Help/Obsidian Publish/SEO.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Set up Obsidian Publish.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3950,
       "exportedPath": "Obsidian Help/Obsidian Publish/Set up Obsidian Publish.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Social media link previews.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1624,
       "exportedPath": "Obsidian Help/Obsidian Publish/Social media link previews.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Publish/Troubleshoot Obsidian Publish.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1715,
       "exportedPath": "Obsidian Help/Obsidian Publish/Troubleshoot Obsidian Publish.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Collaborate on a shared vault.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2544,
       "exportedPath": "Obsidian Help/Obsidian Sync/Collaborate on a shared vault.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Frequently asked questions.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4562,
       "exportedPath": "Obsidian Help/Obsidian Sync/Frequently asked questions.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Introduction to Obsidian Sync.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1950,
       "exportedPath": "Obsidian Help/Obsidian Sync/Introduction to Obsidian Sync.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Local and remote vaults.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1800,
       "exportedPath": "Obsidian Help/Obsidian Sync/Local and remote vaults.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Migrate a Sync vault.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1557,
       "exportedPath": "Obsidian Help/Obsidian Sync/Migrate a Sync vault.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Plans and storage limits.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5153,
       "exportedPath": "Obsidian Help/Obsidian Sync/Plans and storage limits.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Security and privacy.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 7019,
       "exportedPath": "Obsidian Help/Obsidian Sync/Security and privacy.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Set up Obsidian Sync.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 10579,
       "exportedPath": "Obsidian Help/Obsidian Sync/Set up Obsidian Sync.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Status icon and messages.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6737,
       "exportedPath": "Obsidian Help/Obsidian Sync/Status icon and messages.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Switch to Obsidian Sync.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4162,
       "exportedPath": "Obsidian Help/Obsidian Sync/Switch to Obsidian Sync.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Sync settings and selective syncing.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6623,
       "exportedPath": "Obsidian Help/Obsidian Sync/Sync settings and selective syncing.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Troubleshoot Obsidian Sync.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4138,
       "exportedPath": "Obsidian Help/Obsidian Sync/Troubleshoot Obsidian Sync.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Sync/Version history.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 6756,
       "exportedPath": "Obsidian Help/Obsidian Sync/Version history.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Clip web pages.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2924,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Clip web pages.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Filters.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 15439,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Filters.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Highlight web pages.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1514,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Highlight web pages.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Interpret web pages.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8686,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Interpret web pages.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Introduction to Obsidian Web Clipper.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2061,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Introduction to Obsidian Web Clipper.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Templates.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3492,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Templates.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Troubleshoot Web Clipper.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3366,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Troubleshoot Web Clipper.html",
       "dependencies": []
     },
     "Obsidian Help/Obsidian Web Clipper/Variables.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8930,
       "exportedPath": "Obsidian Help/Obsidian Web Clipper/Variables.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Bases/Bases roadmap.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 511,
       "exportedPath": "Obsidian Help/Plugins/Bases/Bases roadmap.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Bases/Bases syntax.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 7716,
       "exportedPath": "Obsidian Help/Plugins/Bases/Bases syntax.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Bases/Create a base.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1018,
       "exportedPath": "Obsidian Help/Plugins/Bases/Create a base.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Bases/Functions.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 8166,
       "exportedPath": "Obsidian Help/Plugins/Bases/Functions.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Bases/Introduction to Bases.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1112,
       "exportedPath": "Obsidian Help/Plugins/Bases/Introduction to Bases.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Bases/Views.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2574,
       "exportedPath": "Obsidian Help/Plugins/Bases/Views.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Audio recorder.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1023,
       "exportedPath": "Obsidian Help/Plugins/Audio recorder.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Backlinks.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2782,
       "exportedPath": "Obsidian Help/Plugins/Backlinks.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Bookmarks.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3535,
       "exportedPath": "Obsidian Help/Plugins/Bookmarks.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Canvas.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 9009,
       "exportedPath": "Obsidian Help/Plugins/Canvas.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Command palette.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1784,
       "exportedPath": "Obsidian Help/Plugins/Command palette.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Core plugins.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2757,
       "exportedPath": "Obsidian Help/Plugins/Core plugins.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Daily notes.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2346,
       "exportedPath": "Obsidian Help/Plugins/Daily notes.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/File explorer.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2508,
       "exportedPath": "Obsidian Help/Plugins/File explorer.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/File recovery.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2074,
       "exportedPath": "Obsidian Help/Plugins/File recovery.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Format converter.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1452,
       "exportedPath": "Obsidian Help/Plugins/Format converter.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Graph view.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3692,
       "exportedPath": "Obsidian Help/Plugins/Graph view.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Importer.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 661,
       "exportedPath": "Obsidian Help/Plugins/Importer.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Note composer.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3653,
       "exportedPath": "Obsidian Help/Plugins/Note composer.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Outgoing links.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1129,
       "exportedPath": "Obsidian Help/Plugins/Outgoing links.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Outline.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 282,
       "exportedPath": "Obsidian Help/Plugins/Outline.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Page preview.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 703,
       "exportedPath": "Obsidian Help/Plugins/Page preview.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Properties view.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 630,
       "exportedPath": "Obsidian Help/Plugins/Properties view.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Quick switcher.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1416,
       "exportedPath": "Obsidian Help/Plugins/Quick switcher.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Random note.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 306,
       "exportedPath": "Obsidian Help/Plugins/Random note.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Search.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 11133,
       "exportedPath": "Obsidian Help/Plugins/Search.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Slash commands.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 799,
       "exportedPath": "Obsidian Help/Plugins/Slash commands.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Slides.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1160,
       "exportedPath": "Obsidian Help/Plugins/Slides.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Tags view.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 734,
       "exportedPath": "Obsidian Help/Plugins/Tags view.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Templates.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1945,
       "exportedPath": "Obsidian Help/Plugins/Templates.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Unique note creator.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1121,
       "exportedPath": "Obsidian Help/Plugins/Unique note creator.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Web viewer.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1974,
       "exportedPath": "Obsidian Help/Plugins/Web viewer.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Word count.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 431,
       "exportedPath": "Obsidian Help/Plugins/Word count.html",
       "dependencies": []
     },
     "Obsidian Help/Plugins/Workspaces.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1820,
       "exportedPath": "Obsidian Help/Plugins/Workspaces.html",
       "dependencies": []
     },
     "Obsidian Help/Teams/Commercial license.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4420,
       "exportedPath": "Obsidian Help/Teams/Commercial license.html",
       "dependencies": []
     },
     "Obsidian Help/Teams/Deploy Obsidian across your team.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 3769,
       "exportedPath": "Obsidian Help/Teams/Deploy Obsidian across your team.html",
       "dependencies": []
     },
     "Obsidian Help/Teams/Obsidian for teams.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1287,
       "exportedPath": "Obsidian Help/Teams/Obsidian for teams.html",
       "dependencies": []
     },
     "Obsidian Help/Teams/Publishing for teams.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2020,
       "exportedPath": "Obsidian Help/Teams/Publishing for teams.html",
       "dependencies": []
     },
     "Obsidian Help/Teams/Security considerations for teams.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 5328,
       "exportedPath": "Obsidian Help/Teams/Security considerations for teams.html",
       "dependencies": []
     },
     "Obsidian Help/Teams/Syncing for teams.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2476,
       "exportedPath": "Obsidian Help/Teams/Syncing for teams.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Appearance.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2175,
       "exportedPath": "Obsidian Help/User interface/Appearance.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Drag and drop.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1603,
       "exportedPath": "Obsidian Help/User interface/Drag and drop.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Hotkeys.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1091,
       "exportedPath": "Obsidian Help/User interface/Hotkeys.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Language settings.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 488,
       "exportedPath": "Obsidian Help/User interface/Language settings.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Pop-out windows.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1284,
       "exportedPath": "Obsidian Help/User interface/Pop-out windows.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Ribbon.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2940,
       "exportedPath": "Obsidian Help/User interface/Ribbon.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Sidebar.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1953,
       "exportedPath": "Obsidian Help/User interface/Sidebar.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Status bar.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 980,
       "exportedPath": "Obsidian Help/User interface/Status bar.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Tabs.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4485,
       "exportedPath": "Obsidian Help/User interface/Tabs.html",
       "dependencies": []
     },
     "Obsidian Help/User interface/Workspace.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 949,
       "exportedPath": "Obsidian Help/User interface/Workspace.html",
       "dependencies": []
     },
     "Obsidian Help/favicon.ico": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 31332,
       "exportedPath": "Obsidian Help/favicon.ico",
       "dependencies": []
     },
     "Obsidian Help/favicon-96x96.png": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 1105,
       "exportedPath": "Obsidian Help/favicon-96x96.png",
       "dependencies": []
     },
     "Obsidian Help/Help and support.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 4543,
       "exportedPath": "Obsidian Help/Help and support.html",
       "dependencies": []
     },
     "Obsidian Help/Home.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2912,
       "exportedPath": "Obsidian Help/Home.html",
       "dependencies": []
     },
     "Obsidian Help/Live preview update.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 2838,
       "exportedPath": "Obsidian Help/Live preview update.html",
       "dependencies": []
     },
     "Obsidian Help/publish.js": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 302,
       "exportedPath": "Obsidian Help/publish.js",
       "dependencies": []
     },
     "Obsidian Help/publish.css": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 18968,
       "exportedPath": "Obsidian Help/publish.css",
       "dependencies": []
     },
     "index.md": {
-      "modifiedTime": 1747980290480,
-      "sourceSize": 2005,
+      "modifiedTime": 1747981371969,
+      "sourceSize": 2001,
       "exportedPath": "index.html",
       "dependencies": []
     },
     "Valid Internal Link.md": {
-      "modifiedTime": 1747980290480,
+      "modifiedTime": 1747981371969,
       "sourceSize": 0,
       "exportedPath": "Valid Internal Link.html",
       "dependencies": []
