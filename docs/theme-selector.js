@@ -50,7 +50,7 @@ function applyTheme(themeName, { pushHistory = true } = {}) {
 
 function loadThemeFromUrlParameters() {
     const themeSelector = document.getElementById('theme_selector');
-    const themeParam = new URL(window.location).searchParams.get('theme');
+    const themeParam = new URL(window.location).searchParams.get('theme') || 'Default';
     themeSelector.value = themeParam;
     applyTheme(themeParam, { pushHistory: false });
 }
