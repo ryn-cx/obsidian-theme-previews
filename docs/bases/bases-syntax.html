@@ -1,0 +1,438 @@
+<!DOCTYPE html><html lang="en"><head>
+<title>Bases syntax</title>
+<base href=".."/>
+<meta name="pathname" content="bases/bases-syntax.html"/>
+<meta name="description" content="This page provides an introduction to Bases syntax in Obsidian."/>
+<meta property="og:title" content="Bases syntax"/>
+<meta property="og:description" content="This page provides an introduction to Bases syntax in Obsidian."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="bases/bases-syntax.html"/>
+<meta property="og:image" content="undefined"/>
+<meta charset="UTF-8"/><meta property="og:site_name" content="Obsidian Theme Testing"/><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"/><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="site-lib/rss.xml"/><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&#34;loaded&#34;, &#34;true&#34;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&#34;loaded&#34;, &#34;true&#34;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&#34;loaded&#34;, &#34;true&#34;)"></script><link rel="icon" href="site-lib/media/favicon.png"/><link rel="stylesheet" href="site-lib/styles/obsidian.css"/><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;"/><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel=&#39;stylesheet&#39;"/><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:calc(2.3em + 2 * var(--sidebar-margin));width:var(--sidebar-width);padding:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row;border-top-right-radius:var(--radius-l)}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse;border-top-left-radius:var(--radius-l)}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:1px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#navbar:not(:empty){display:flex;align-items:center;justify-content:space-between;padding:.5em 1em;width:100%}#main{display:flex;flex-direction:column;height:100%;width:100%;align-items:stretch;justify-content:center}#main-horizontal{display:flex;flex-direction:row;flex-grow:1;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6,li):has(> :is(.math,table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const n=await fetch(e);if(!n.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await n.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let n=document.createRange().createContextualFragment(o);t.before(n),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(n){let l=o[n],c=n+1;l?(l&&"true"!=l.getAttribute("loaded")||n<o.length&&e(c),n<o.length&&l.addEventListener("load",(()=>e(c)))):n<o.length?e(c):t()}(0)}</script><link id="theme-stylesheet" rel="stylesheet" href="/zzz/generic.css"/><script src="/zzz/theme-selector.js"></script></head><body class="publish css-settings-manager styled-scrollbars show-inline-title show-ribbon is-focused"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"/></div><div id="main"><div id="navbar"></div><div id="main-horizontal"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."/><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"/></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles">mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-mrow{display:inline-block;text-align:left}mjx-mo{display:inline-block;text-align:left}mjx-stretchy-h{display:inline-table;width:100%}mjx-stretchy-h>*{display:table-cell;width:0}mjx-stretchy-h>*>mjx-c{display:inline-block;transform:scaleX(1)}mjx-stretchy-h>*>mjx-c::before{display:inline-block;width:initial}mjx-stretchy-h>mjx-ext{overflow:clip visible;width:100%}mjx-stretchy-h>mjx-ext>mjx-c::before{transform:scaleX(500)}mjx-stretchy-h>mjx-ext>mjx-c{width:0}mjx-stretchy-h>mjx-beg>mjx-c{margin-right:-.1em}mjx-stretchy-h>mjx-end>mjx-c{margin-left:-.1em}mjx-stretchy-v{display:inline-block}mjx-stretchy-v>*{display:block}mjx-stretchy-v>mjx-beg{height:0}mjx-stretchy-v>mjx-end>mjx-c{display:block}mjx-stretchy-v>*>mjx-c{transform:scaleY(1);transform-origin:left center;overflow:hidden}mjx-stretchy-v>mjx-ext{display:block;height:100%;box-sizing:border-box;border:0 solid transparent;overflow:visible clip}mjx-stretchy-v>mjx-ext>mjx-c::before{width:initial;box-sizing:border-box}mjx-stretchy-v>mjx-ext>mjx-c{transform:scaleY(500) translateY(.075em);overflow:visible}mjx-mark{display:inline-block;height:0}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-mtable{display:inline-block;text-align:center;vertical-align:.25em;position:relative;box-sizing:border-box;border-spacing:0px;border-collapse:collapse}mjx-mstyle[size="s"] mjx-mtable{vertical-align:.354em}mjx-labels{position:absolute;left:0;top:0}mjx-table{display:inline-block;vertical-align:-.5ex;box-sizing:border-box}mjx-table>mjx-itable{vertical-align:middle;text-align:left;box-sizing:border-box}mjx-labels>mjx-itable{position:absolute;top:0}mjx-mtable[justify=left]{text-align:left}mjx-mtable[justify=right]{text-align:right}mjx-mtable[justify=left][side=left]{padding-right:0!important}mjx-mtable[justify=left][side=right]{padding-left:0!important}mjx-mtable[justify=right][side=left]{padding-right:0!important}mjx-mtable[justify=right][side=right]{padding-left:0!important}mjx-mtable[align]{vertical-align:baseline}mjx-mtable[align=top]>mjx-table{vertical-align:top}mjx-mtable[align=bottom]>mjx-table{vertical-align:bottom}mjx-mtable[side=right] mjx-labels{min-width:100%}mjx-mtr{display:table-row;text-align:left}mjx-mtr[rowalign=top]>mjx-mtd{vertical-align:top}mjx-mtr[rowalign=center]>mjx-mtd{vertical-align:middle}mjx-mtr[rowalign=bottom]>mjx-mtd{vertical-align:bottom}mjx-mtr[rowalign=baseline]>mjx-mtd{vertical-align:baseline}mjx-mtr[rowalign=axis]>mjx-mtd{vertical-align:.25em}mjx-mtd{display:table-cell;text-align:center;padding:.215em .4em}mjx-mtd:first-child{padding-left:0}mjx-mtd:last-child{padding-right:0}mjx-mtable>*>mjx-itable>:first-child>mjx-mtd{padding-top:0}mjx-mtable>*>mjx-itable>:last-child>mjx-mtd{padding-bottom:0}mjx-tstrut{display:inline-block;height:1em;vertical-align:-.25em}mjx-labels[align=left]>mjx-mtr>mjx-mtd{text-align:left}mjx-labels[align=right]>mjx-mtr>mjx-mtd{text-align:right}mjx-mtd[extra]{padding:0}mjx-mtd[rowalign=top]{vertical-align:top}mjx-mtd[rowalign=center]{vertical-align:middle}mjx-mtd[rowalign=bottom]{vertical-align:bottom}mjx-mtd[rowalign=baseline]{vertical-align:baseline}mjx-mtd[rowalign=axis]{vertical-align:.25em}mjx-mi{display:inline-block;text-align:left}mjx-msup{display:inline-block;text-align:left}mjx-texatom{display:inline-block;text-align:left}mjx-mn{display:inline-block;text-align:left}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("site-lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("site-lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("site-lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("site-lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("site-lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("site-lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("site-lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("site-lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("site-lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("site-lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("site-lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("site-lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("site-lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("site-lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("site-lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("site-lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("site-lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("site-lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("site-lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("site-lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("site-lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("site-lib/fonts/mathjax_vector-bold.woff") format("woff")}mjx-stretchy-v.mjx-c7C mjx-ext mjx-c::before{content:"∣";width:.333em}mjx-c.mjx-c1D44E.TEX-I::before{padding:.441em .529em .01em 0;content:"a"}mjx-c.mjx-c1D44F.TEX-I::before{padding:.694em .429em .011em 0;content:"b"}mjx-c.mjx-c1D450.TEX-I::before{padding:.442em .433em .011em 0;content:"c"}mjx-c.mjx-c1D451.TEX-I::before{padding:.694em .52em .01em 0;content:"d"}mjx-c.mjx-c3D::before{padding:.583em .778em .082em 0;content:"="}mjx-c.mjx-c2212::before{padding:.583em .778em .082em 0;content:"−"}mjx-c.mjx-c1D452.TEX-I::before{padding:.442em .466em .011em 0;content:"e"}mjx-c.mjx-c32::before{padding:.666em .5em 0 0;content:"2"}mjx-c.mjx-c1D456.TEX-I::before{padding:.661em .345em .011em 0;content:"i"}mjx-c.mjx-c1D70B.TEX-I::before{padding:.431em .57em .011em 0;content:"π"}mjx-c.mjx-c31::before{padding:.666em .5em 0 0;content:"1"}</style><pre class="frontmatter language-yaml" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">aliases</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> Bases file format
+<span class="token key atrule">description</span><span class="token punctuation">:</span> This page provides an introduction to Bases syntax in Obsidian.
+<span class="token key atrule">mobile</span><span class="token punctuation">:</span> <span class="token boolean important">true</span>
+<span class="token key atrule">permalink</span><span class="token punctuation">:</span> bases/syntax
+<span class="token key atrule">publish</span><span class="token punctuation">:</span> <span class="token boolean important">true</span></code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Bases_syntax_0">Bases syntax</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-p"><p dir="auto">When you <a data-tooltip-position="top" aria-label="Create a base" data-href="Create a base" href="bases/create-a-base.html" class="internal-link" target="_self" rel="noopener nofollow">create a base</a> in Obsidian, it is saved as a <code>.base</code> file. Bases are typically edited using the app interface, but the syntax can also be edited manually, and embedded in a code block.</p></div><div class="el-p"><p dir="auto">The <a data-tooltip-position="top" aria-label="Introduction to Bases" data-href="Introduction to Bases" href="bases/introduction-to-bases.html" class="internal-link" target="_self" rel="noopener nofollow">Bases</a> syntax defines <a data-href="Views" href="bases/views.html" class="internal-link" target="_self" rel="noopener nofollow">Views</a>, filters, and <a data-href="formulas" href="bases/formulas.html" class="internal-link" target="_self" rel="noopener nofollow">formulas</a>. Bases must be valid YAML conforming to the schema defined below.</p></div><div class="el-h2"><h2 data-heading="Example" dir="auto" class="heading" id="Example_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Example</h2></div><div class="el-p"><p dir="auto">Here&#39;s an example of a base file. We&#39;ll walk through each section in detail.</p></div><div class="el-pre"><pre class="language-yaml"><code data-line="0" class="language-yaml is-loaded"><span class="token key atrule">filters</span><span class="token punctuation">:</span>
+  <span class="token key atrule">or</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> file.hasTag(&#34;tag&#34;)
+    <span class="token punctuation">-</span> <span class="token key atrule">and</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> file.hasTag(&#34;book&#34;)
+        <span class="token punctuation">-</span> file.hasLink(&#34;Textbook&#34;)
+    <span class="token punctuation">-</span> <span class="token key atrule">not</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> file.hasTag(&#34;book&#34;)
+        <span class="token punctuation">-</span> file.inFolder(&#34;Required Reading&#34;)
+<span class="token key atrule">formulas</span><span class="token punctuation">:</span>
+  <span class="token key atrule">formatted_price</span><span class="token punctuation">:</span> <span class="token string">&#39;if(price, price.toFixed(2) + &#34; dollars&#34;)&#39;</span>
+  <span class="token key atrule">ppu</span><span class="token punctuation">:</span> <span class="token string">&#34;(price / age).toFixed(2)&#34;</span>
+<span class="token key atrule">properties</span><span class="token punctuation">:</span>
+  <span class="token key atrule">status</span><span class="token punctuation">:</span>
+    <span class="token key atrule">displayName</span><span class="token punctuation">:</span> Status
+  <span class="token key atrule">formula.formatted_price</span><span class="token punctuation">:</span>
+    <span class="token key atrule">displayName</span><span class="token punctuation">:</span> <span class="token string">&#34;Price&#34;</span>
+  <span class="token key atrule">file.ext</span><span class="token punctuation">:</span>
+    <span class="token key atrule">displayName</span><span class="token punctuation">:</span> Extension
+<span class="token key atrule">summaries</span><span class="token punctuation">:</span>
+  <span class="token key atrule">customAverage</span><span class="token punctuation">:</span> <span class="token string">&#39;values.mean().round(3)&#39;</span>
+<span class="token key atrule">views</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">type</span><span class="token punctuation">:</span> table
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> <span class="token string">&#34;My table&#34;</span>
+    <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">10</span>
+    <span class="token key atrule">groupBy</span><span class="token punctuation">:</span>
+      <span class="token key atrule">property</span><span class="token punctuation">:</span> note.age
+      <span class="token key atrule">direction</span><span class="token punctuation">:</span> DESC
+    <span class="token key atrule">filters</span><span class="token punctuation">:</span>
+      <span class="token key atrule">and</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token string">&#39;status != &#34;done&#34;&#39;</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">or</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&#34;formula.ppu &gt; 5&#34;</span>
+            <span class="token punctuation">-</span> <span class="token string">&#34;price &gt; 2.1&#34;</span>
+    <span class="token key atrule">order</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> file.name
+      <span class="token punctuation">-</span> file.ext
+      <span class="token punctuation">-</span> note.age
+      <span class="token punctuation">-</span> formula.ppu
+      <span class="token punctuation">-</span> formula.formatted_price
+    <span class="token key atrule">summaries</span><span class="token punctuation">:</span>
+      <span class="token key atrule">formula.ppu</span><span class="token punctuation">:</span> Average
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h3"><h3 data-heading="Filters" dir="auto" class="heading" id="Filters_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Filters</h3></div><div class="el-p"><p dir="auto">By default a base includes every file in the vault. There is no <code>from</code> or <code>source</code> like in SQL or Dataview. The <code>filters</code> section lets you define conditions to narrow down the dataset.</p></div><div class="el-pre"><pre class="language-yaml"><code data-line="0" class="language-yaml is-loaded"><span class="token key atrule">filters</span><span class="token punctuation">:</span>
+  <span class="token key atrule">or</span><span class="token punctuation">:</span>
+    <span class="token punctuation">-</span> file.hasTag(&#34;tag&#34;)
+    <span class="token punctuation">-</span> <span class="token key atrule">and</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> file.hasTag(&#34;book&#34;)
+        <span class="token punctuation">-</span> file.hasLink(&#34;Textbook&#34;)
+    <span class="token punctuation">-</span> <span class="token key atrule">not</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> file.hasTag(&#34;book&#34;)
+        <span class="token punctuation">-</span> file.inFolder(&#34;Required Reading&#34;)
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">There are two opportunities to apply filters:</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto">At the global <code>filters</code> level (shown above) where they apply to all views in the base.</li>
+<li data-line="1" dir="auto">At the <code>view</code> level where apply only to a specific view.</li>
+</ol></div><div class="el-p"><p dir="auto">These two sections are functionally equivalent and when evaluating for a view they will be concatenated with an <code>AND</code>.</p></div><div class="el-p"><p dir="auto">The <code>filters</code> section contains either a single filter statement as a string, or a recursively defined filter object. Filter objects may contain one of <code>and</code>, <code>or</code>, or <code>not</code>. These keys are a heterogeneous list of other filter objects or filter statements in strings. A filter statement is a line which evaluates to truthy or falsey when applied to a note. It can be one of the following:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>A basic comparison using standard arithmetic operators.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>A function. A variety of <a data-href="Functions" href="bases/functions.html" class="internal-link" target="_self" rel="noopener nofollow">Functions</a> are built-in, and plugins can add additional functions.</li>
+</ul></div><div class="el-p"><p dir="auto">The syntax and available functions for filters and formulas are the same.</p></div><div class="el-h3"><h3 data-heading="Formulas" dir="auto" class="heading" id="Formulas_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Formulas</h3></div><div class="el-p"><p dir="auto">The <code>formulas</code> section defines <a data-tooltip-position="top" aria-label="Formulas" data-href="Formulas" href="bases/formulas.html" class="internal-link" target="_self" rel="noopener nofollow">formula properties</a> that can be displayed across all views in the base file.</p></div><div class="el-pre"><pre class="language-yaml"><code data-line="0" class="language-yaml is-loaded"><span class="token key atrule">formulas</span><span class="token punctuation">:</span>
+  <span class="token key atrule">formatted_price</span><span class="token punctuation">:</span> <span class="token string">&#39;if(price, price.toFixed(2) + &#34; dollars&#34;)&#39;</span>
+  <span class="token key atrule">ppu</span><span class="token punctuation">:</span> <span class="token string">&#34;(price / age).toFixed(2)&#34;</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">Formula properties support basic arithmetic operators and a variety of built-in <a data-href="Functions" href="bases/functions.html" class="internal-link" target="_self" rel="noopener nofollow">Functions</a>. In the future, plugins will be able to add functions for use in formulas.</p></div><div class="el-p"><p dir="auto">You can reference properties in different ways depending on their type:</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><strong>Note properties</strong> are properties defined in the note’s frontmatter. For example <code>note.price</code> or <code>note[&#34;price&#34;]</code>.<br/>
+If no prefix is specified, the property is assumed to be a <code>note</code> property.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><strong>File properties</strong> describe the file itself.<br/>
+For example <code>file.size</code> or <code>file.ext</code>. You can also reference the file object directly, e.g., <code>file.hasLink()</code>.</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><strong>Formula properties</strong> are other formulas in the base.<br/>
+Example <code>formula.formatted_price</code>.</li>
+</ul></div><div class="el-p"><p dir="auto">A formula can use values from other formula properties, as long as there’s no circular reference.  </p></div><div class="el-p"><p dir="auto">Formula properties are always stored as strings in YAML, but their actual <strong>output data type</strong> is determined by the type of the underlying data and the return value of any functions used.</p></div><div class="el-p"><p dir="auto">Note the use of nested quotes is necessary to include text literals in the YAML field. Text literals must be enclosed in single or double quotes.</p></div><div class="el-h3"><h3 data-heading="Properties" dir="auto" class="heading" id="Properties_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Properties</h3></div><div class="el-p"><p dir="auto">The <code>properties</code> section allows storing configuration information about each property. It is up to the individual view how to use these configuration values. For example, in tables the display name is used for the column headers.</p></div><div class="el-pre"><pre class="language-yaml"><code data-line="0" class="language-yaml is-loaded"><span class="token key atrule">properties</span><span class="token punctuation">:</span>
+  <span class="token key atrule">status</span><span class="token punctuation">:</span>
+    <span class="token key atrule">displayName</span><span class="token punctuation">:</span> Status
+  <span class="token key atrule">formula.formatted_price</span><span class="token punctuation">:</span>
+    <span class="token key atrule">displayName</span><span class="token punctuation">:</span> <span class="token string">&#34;Price&#34;</span>
+  <span class="token key atrule">file.ext</span><span class="token punctuation">:</span>
+    <span class="token key atrule">displayName</span><span class="token punctuation">:</span> Extension
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">Display names are not used in filters or formulas.</p></div><div class="el-h3"><h3 data-heading="Summaries" dir="auto" class="heading" id="Summaries_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Summaries</h3></div><div class="el-p"><p dir="auto">The <code>summaries</code> section can be used to define custom summary formulas. In addition to defining summary formulas here, there are several default summary formulas available.</p></div><div class="el-pre"><pre class="language-yaml"><code data-line="0" class="language-yaml is-loaded"><span class="token key atrule">summaries</span><span class="token punctuation">:</span>
+  <span class="token key atrule">customAverage</span><span class="token punctuation">:</span> <span class="token string">&#39;values.mean().round(3)&#39;</span>
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-p"><p dir="auto">In this example, the <code>customAverage</code> formula is the same as the default <code>Average</code>, except the value is rounded to a different number of places. In summary formulas, the <code>values</code> key word is a list containing all of the values for that property across every note in the result set. The summary formula should return a single <code>Value</code>.</p></div><div class="el-p"><p dir="auto">Note that this <code>summaries</code> section is different from the <code>summaries</code> section in the view config (explained below) where summary formulas as assigned to specific properties.</p></div><div class="el-h4"><h4 data-heading="Default Summary Formulas" dir="auto" class="heading" id="Default_Summary_Formulas_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Default Summary Formulas</h4></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Name</th>
+<th dir="ltr">Input Type</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Average</td>
+<td dir="ltr">Number</td>
+<td dir="ltr">The mathematical mean of all numbers from the input values.</td>
+</tr>
+<tr>
+<td dir="ltr">Min</td>
+<td dir="ltr">Number</td>
+<td dir="ltr">The smallest number from the input values.</td>
+</tr>
+<tr>
+<td dir="ltr">Max</td>
+<td dir="ltr">Number</td>
+<td dir="ltr">The largest number from the input values.</td>
+</tr>
+<tr>
+<td dir="ltr">Sum</td>
+<td dir="ltr">Number</td>
+<td dir="ltr">The sum of all numbers in the input.</td>
+</tr>
+<tr>
+<td dir="ltr">Range</td>
+<td dir="ltr">Number</td>
+<td dir="ltr">The difference between <code>Max</code> and <code>Min</code>.</td>
+</tr>
+<tr>
+<td dir="ltr">Median</td>
+<td dir="ltr">Number</td>
+<td dir="ltr">The mathematical median of all numbers from the input values.</td>
+</tr>
+<tr>
+<td dir="ltr">Stddev</td>
+<td dir="ltr">Number</td>
+<td dir="ltr">The standard deviation of all numbers from the input values.</td>
+</tr>
+<tr>
+<td dir="ltr">Earliest</td>
+<td dir="ltr">Date</td>
+<td dir="ltr">The earliest date from the input values.</td>
+</tr>
+<tr>
+<td dir="ltr">Latest</td>
+<td dir="ltr">Date</td>
+<td dir="ltr">The latest date from the input values.</td>
+</tr>
+<tr>
+<td dir="ltr">Range</td>
+<td dir="ltr">Date</td>
+<td dir="ltr">The difference between <code>Latest</code> and <code>Earliest</code>.</td>
+</tr>
+<tr>
+<td dir="ltr">Checked</td>
+<td dir="ltr">Boolean</td>
+<td dir="ltr">The number of <code>true</code> values.</td>
+</tr>
+<tr>
+<td dir="ltr">Unchecked</td>
+<td dir="ltr">Boolean</td>
+<td dir="ltr">The number of <code>false</code> values.</td>
+</tr>
+<tr>
+<td dir="ltr">Empty</td>
+<td dir="ltr">Any</td>
+<td dir="ltr">The number of values in the input that are empty.</td>
+</tr>
+<tr>
+<td dir="ltr">Filled</td>
+<td dir="ltr">Any</td>
+<td dir="ltr">The number of values in the input that are not empty.</td>
+</tr>
+<tr>
+<td dir="ltr">Unique</td>
+<td dir="ltr">Any</td>
+<td dir="ltr">The number of unique values in the input.</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Views" dir="auto" class="heading" id="Views_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Views</h3></div><div class="el-p"><p dir="auto">The <code>views</code> section defines how the data can be rendered. Each entry in the <code>views</code> list defines a separate view of the same data, and there can be as many different views as needed.</p></div><div class="el-pre"><pre class="language-yaml"><code data-line="0" class="language-yaml is-loaded"><span class="token key atrule">views</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> <span class="token key atrule">type</span><span class="token punctuation">:</span> table
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> <span class="token string">&#34;My table&#34;</span>
+    <span class="token key atrule">limit</span><span class="token punctuation">:</span> <span class="token number">10</span>
+    <span class="token key atrule">groupBy</span><span class="token punctuation">:</span>
+      <span class="token key atrule">property</span><span class="token punctuation">:</span> note.age
+      <span class="token key atrule">direction</span><span class="token punctuation">:</span> DESC
+    <span class="token key atrule">filters</span><span class="token punctuation">:</span>
+      <span class="token key atrule">and</span><span class="token punctuation">:</span>
+        <span class="token punctuation">-</span> <span class="token string">&#39;status != &#34;done&#34;&#39;</span>
+        <span class="token punctuation">-</span> <span class="token key atrule">or</span><span class="token punctuation">:</span>
+            <span class="token punctuation">-</span> <span class="token string">&#34;formula.ppu &gt; 5&#34;</span>
+            <span class="token punctuation">-</span> <span class="token string">&#34;price &gt; 2.1&#34;</span>
+    <span class="token key atrule">order</span><span class="token punctuation">:</span>
+      <span class="token punctuation">-</span> file.name
+      <span class="token punctuation">-</span> file.ext
+      <span class="token punctuation">-</span> note.age
+      <span class="token punctuation">-</span> formula.ppu
+      <span class="token punctuation">-</span> formula.formatted_price
+    <span class="token key atrule">summaries</span><span class="token punctuation">:</span>
+      <span class="token key atrule">formula.ppu</span><span class="token punctuation">:</span> Average
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><code>type</code> selects from the built-in and plugin-added view types.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span><code>name</code> is the display name, and can be used to define the default view.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><code>filters</code> are exactly the same as described above, but apply only to the view.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span><code>groupBy</code> specifies a property and sort direction. The value of the specified property for each row is used to place the row into groups.</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span><code>summaries</code> maps property names to a named summary. Summaries perform an aggregation on the property across all rows.</li>
+</ul></div><div class="el-p"><p dir="auto"><a data-href="Views" href="bases/views.html" class="internal-link" target="_self" rel="noopener nofollow">Views</a> can add additional data to store any information needed to maintain state or properly render, however plugin authors should take care to not use keys already in use by the core Bases plugin. As an example, a table view may use this to limit the number of rows or to select which column is used to sort rows and in which direction. A different view type such as a map could use this for mapping which property in the note corresponds to the latitude and longitude and which property should be displayed as the pin title.</p></div><div class="el-p"><p dir="auto">In the future, API will allow views to read and write these values, allowing the view to build its own interface for configuration.</p></div><div class="el-h2"><h2 data-heading="Properties" dir="auto" class="heading" id="Properties_1"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Properties</h2></div><div class="el-p"><p dir="auto">There are three kinds of properties used in bases:</p></div><div class="el-ol"><ol>
+<li data-line="0" dir="auto"><strong>Note properties</strong>, stored in frontmatter of Markdown files.</li>
+<li data-line="1" dir="auto"><strong>File properties</strong>, accessible for all file types.</li>
+<li data-line="2" dir="auto"><strong>Formula properties</strong>, defined in the <code>.base</code> file itself (see above).</li>
+</ol></div><div class="el-h3"><h3 data-heading="Note properties" dir="auto" class="heading" id="Note_properties_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Note properties</h3></div><div class="el-p"><p dir="auto"><a data-tooltip-position="top" aria-label="Properties" data-href="Properties" href="editing-and-formatting/properties.html" class="internal-link" target="_self" rel="noopener nofollow">Note properties</a> are only available for Markdown files, and are stored in the YAML frontmatter of each note. These properties can be accessed using the format <code>note.author</code> or simply <code>author</code> as a shorthand.</p></div><div class="el-h3"><h3 data-heading="File properties" dir="auto" class="heading" id="File_properties_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>File properties</h3></div><div class="el-p"><p dir="auto">File properties refer to the file currently being tested or evaluated. File properties are available for all <a data-tooltip-position="top" aria-label="Accepted file formats" data-href="Accepted file formats" href="files-and-folders/accepted-file-formats.html" class="internal-link" target="_self" rel="noopener nofollow">file types</a>, including attachments.</p></div><div class="el-p"><p dir="auto">For example, a filter <code>file.ext == &#34;md&#34;</code> will be true for all Markdown files and false otherwise.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Property</th>
+<th dir="ltr">Type</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><code>file.backlinks</code></td>
+<td dir="ltr">List</td>
+<td dir="ltr">List of backlink files. Note: This property is performance heavy. When possible, reverse the lookup and use <code>file.links</code>. Does not automatically refresh results when the vault is changed.</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.ctime</code></td>
+<td dir="ltr">Date</td>
+<td dir="ltr">Created time</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.embeds</code></td>
+<td dir="ltr">List</td>
+<td dir="ltr">List of all embeds in the note</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.ext</code></td>
+<td dir="ltr">String</td>
+<td dir="ltr">File extension</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.file</code></td>
+<td dir="ltr">File</td>
+<td dir="ltr">File object, only usable in specific functions</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.folder</code></td>
+<td dir="ltr">String</td>
+<td dir="ltr">Path of the file folder</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.links</code></td>
+<td dir="ltr">List</td>
+<td dir="ltr">List of all internal links in the note, including frontmatter</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.mtime</code></td>
+<td dir="ltr">Date</td>
+<td dir="ltr">Modified time</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.name</code></td>
+<td dir="ltr">String</td>
+<td dir="ltr">File name</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.path</code></td>
+<td dir="ltr">String</td>
+<td dir="ltr">Path of the file</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.properties</code></td>
+<td dir="ltr">Object</td>
+<td dir="ltr">All properties on the file. Note: Does not automatically refresh results when the vault is changed.</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.size</code></td>
+<td dir="ltr">Number</td>
+<td dir="ltr">File size</td>
+</tr>
+<tr>
+<td dir="ltr"><code>file.tags</code></td>
+<td dir="ltr">List</td>
+<td dir="ltr">List of all tags in the file content and frontmatter</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Access properties with `this`" dir="auto" class="heading" id="Access_properties_with_`this`_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Access properties with <code>this</code></h3></div><div class="el-p"><p dir="auto">Use the <code>this</code> object to access file properties. What <code>this</code> refers to, will depend on where the base is displayed. </p></div><div class="el-p"><p dir="auto">When the base is opened in main content area, <code>this</code> points to properties of the base file itself. For example, using <code>this.file.folder</code> returns the folder path where the base is located.</p></div><div class="el-p"><p dir="auto">When the base is embedded in another file, <code>this</code> points to properties of the <em>embedding</em> file (the note or Canvas that contains the base). For example, using <code>this.file.name</code> returns the name of the embedding file, not the base.</p></div><div class="el-p"><p dir="auto">When the base is in a sidebar, <code>this</code> refers to the active file in the main content area. This lets you create queries based on the active file. For example, you can use <code>file.hasLink(this.file)</code> to replicate the backlinks pane.</p></div><div class="el-h2"><h2 data-heading="Operators" dir="auto" class="heading" id="Operators_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Operators</h2></div><div class="el-h3"><h3 data-heading="Arithmetic operators" dir="auto" class="heading" id="Arithmetic_operators_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Arithmetic operators</h3></div><div class="el-p"><p dir="auto">Arithmetic operators perform arithmetic on numbers. For example, <code>radius * (2 * 3.14)</code>.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Operator</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto"><code>+</code></td>
+<td dir="ltr">plus</td>
+</tr>
+<tr>
+<td dir="auto"><code>-</code></td>
+<td dir="ltr">minus</td>
+</tr>
+<tr>
+<td dir="auto"><code>*</code></td>
+<td dir="ltr">multiply</td>
+</tr>
+<tr>
+<td dir="auto"><code>/</code></td>
+<td dir="ltr">divide</td>
+</tr>
+<tr>
+<td dir="auto"><code>%</code></td>
+<td dir="ltr">modulo</td>
+</tr>
+<tr>
+<td dir="auto"><code>( )</code></td>
+<td dir="ltr">parenthesis</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Date arithmetic" dir="auto" class="heading" id="Date_arithmetic_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Date arithmetic</h3></div><div class="el-p"><p dir="auto">Dates can be modified by adding and subtracting durations. Duration units accept multiple formats:</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Unit</th>
+<th dir="ltr">Duration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><code>y</code>, <code>year</code>, <code>years</code></td>
+<td dir="ltr">year</td>
+</tr>
+<tr>
+<td dir="ltr"><code>M</code>, <code>month</code>, <code>months</code></td>
+<td dir="ltr">month</td>
+</tr>
+<tr>
+<td dir="ltr"><code>d</code>, <code>day</code>, <code>days</code></td>
+<td dir="ltr">day</td>
+</tr>
+<tr>
+<td dir="ltr"><code>w</code>, <code>week</code>, <code>weeks</code></td>
+<td dir="ltr">week</td>
+</tr>
+<tr>
+<td dir="ltr"><code>h</code>, <code>hour</code>, <code>hours</code></td>
+<td dir="ltr">hour</td>
+</tr>
+<tr>
+<td dir="ltr"><code>m</code>, <code>minute</code>, <code>minutes</code></td>
+<td dir="ltr">minute</td>
+</tr>
+<tr>
+<td dir="ltr"><code>s</code>, <code>second</code>, <code>seconds</code></td>
+<td dir="ltr">second</td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">To modify or offset Date objects, use the <code>+</code> or <code>-</code> operator with a duration string. For example, <code>date + &#34;1M&#34;</code> adds 1 month to the date, while <code>date - &#34;2h&#34;</code> subtracts 2 hours from the date.</p></div><div class="el-p"><p dir="auto">The global <a data-tooltip-position="top" aria-label="Functions" data-href="Functions" href="bases/functions.html" class="internal-link" target="_self" rel="noopener nofollow">function</a> <code>today()</code> can be used to get the current date, and <code>now()</code> can be used to get the current date with time.</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span><code>now() + &#34;1 day&#34;</code> returns a datetime exactly 24 hours from the time of execution.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span><code>file.mtime &gt; now() - &#34;1 week&#34;</code> returns <code>true</code> if the file was modified within the last week.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span><code>date(&#34;2024-12-01&#34;) + &#34;1M&#34; + &#34;4h&#34; + &#34;3m&#34;</code> returns a Date object representing <code>2025-01-01 04:03:00</code>.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>Subtract two dates to get the millisecond difference between the two, for example, <code>now() - file.ctime</code>.</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>To get the date portion of a Date with time, use <code>datetime.date()</code>.</li>
+<li data-line="5" dir="auto"><span class="list-bullet"></span>To format a Date object, use the <code>format()</code> function, for example <code>datetime.format(&#34;YYYY-MM-DD&#34;)</code>.</li>
+</ul></div><div class="el-h3"><h3 data-heading="Comparison operators" dir="auto" class="heading" id="Comparison_operators_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Comparison operators</h3></div><div class="el-p"><p dir="auto">Comparison operators can be used to compare numbers, or Date objects. Equal and not equal can be used with any kind of value, not just numbers and dates.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Operator</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto"><code>==</code></td>
+<td dir="ltr">equals</td>
+</tr>
+<tr>
+<td dir="auto"><code>!=</code></td>
+<td dir="ltr">not equal</td>
+</tr>
+<tr>
+<td dir="auto"><code>&gt;</code></td>
+<td dir="ltr">greater than</td>
+</tr>
+<tr>
+<td dir="auto"><code>&lt;</code></td>
+<td dir="ltr">less than</td>
+</tr>
+<tr>
+<td dir="auto"><code>&gt;=</code></td>
+<td dir="ltr">greater than or equal to</td>
+</tr>
+<tr>
+<td dir="auto"><code>&lt;=</code></td>
+<td dir="ltr">less than or equal to</td>
+</tr>
+</tbody>
+</table></div><div class="el-h3"><h3 data-heading="Boolean operators" dir="auto" class="heading" id="Boolean_operators_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Boolean operators</h3></div><div class="el-p"><p dir="auto">Boolean operators can be used to combine or invert logical values, resulting in a true or false value.</p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Operator</th>
+<th dir="ltr">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto"><code>!</code></td>
+<td dir="ltr">logical not</td>
+</tr>
+<tr>
+<td dir="auto"><code>&amp;&amp;</code></td>
+<td dir="ltr">logical and</td>
+</tr>
+<tr>
+<td dir="auto">||</td>
+<td dir="ltr">logical or</td>
+</tr>
+</tbody>
+</table></div><div class="el-h2"><h2 data-heading="Functions" dir="auto" class="heading" id="Functions_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Functions</h2></div><div class="el-p"><p dir="auto">See the <a data-tooltip-position="top" aria-label="Functions" data-href="Functions" href="bases/functions.html" class="internal-link" target="_self" rel="noopener nofollow">list of functions</a> that can be used in formulas and <a data-tooltip-position="top" aria-label="Views" data-href="Views" href="bases/views.html" class="internal-link" target="_self" rel="noopener nofollow">filters</a>.</p></div><div class="el-h2"><h2 data-heading="Types" dir="auto" class="heading" id="Types_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Types</h2></div><div class="el-p"><p dir="auto">Bases have a type system which is used by formulas and filters to apply functions to properties.</p></div><div class="el-h3"><h3 data-heading="Strings, numbers, and booleans" dir="auto" class="heading" id="Strings,_numbers,_and_booleans_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Strings, numbers, and booleans</h3></div><div class="el-p"><p dir="auto">Strings, numbers, and booleans are &#34;primitive&#34; values which do not require a function to create.</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Strings are enclosed in single or double quotes, for example <code>&#34;message&#34;</code>.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Numbers are written as digits, and may optionally be enclosed in parenthesis for clarity. For example, <code>1</code> or <code>(2.5)</code>.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Booleans are written as <code>true</code> or <code>false</code> without quotes.</li>
+</ul></div><div class="el-h3"><h3 data-heading="Dates and durations" dir="auto" class="heading" id="Dates_and_durations_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Dates and durations</h3></div><div class="el-p"><p dir="auto">Dates represent a specific date, or a date and time depending on the function used to create them, or that type that has been assigned to the <a data-tooltip-position="top" aria-label="Properties" data-href="Properties" href="editing-and-formatting/properties.html" class="internal-link" target="_self" rel="noopener nofollow">property</a>.</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>To construct a date, use the <code>date</code> function, for example <code>date(&#34;2025-01-01 12:00:00&#34;)</code></li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>To modify a date, add or remove a duration, for example <code>now() + &#34;1 hour&#34;</code> or <code>today() + &#34;7d&#34;</code></li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Compare dates using comparison operators (e.g. <code>&gt;</code> or <code>&lt;</code>) and arithmetic operators (for example, <code>(now() + &#34;1d&#34;) - now()</code> returns <code>86400000</code> milliseconds.)</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>To extract portions of a date, use the available fields (<code>now().hour</code>), or a convenience function (<code>now.time()</code>).</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>Many other <a data-tooltip-position="top" aria-label="Functions" data-href="Functions" href="bases/functions.html" class="internal-link" target="_self" rel="noopener nofollow">fields and functions</a> are available on date objects.</li>
+</ul></div><div class="el-h3"><h3 data-heading="Objects and lists" dir="auto" class="heading" id="Objects_and_lists_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Objects and lists</h3></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>Turn a single element into a list using the <code>list()</code> function. This is especially helpful for properties which may contain a mixture of lists or single values.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>Access list elements using square brackets, and a 0-based index. For example, <code>property[0]</code> returns the first element from the list.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>Access object elements using square brackets and the element name or dot notation. For example, <code>property.subprop</code> or <code>property[&#34;subprop&#34;]</code>.</li>
+</ul></div><div class="el-h3"><h3 data-heading="Files and links" dir="auto" class="heading" id="Files_and_links_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Files and links</h3></div><div class="el-p"><p dir="auto"><a data-tooltip-position="top" aria-label="Link notes" data-href="Link notes" href="getting-started/link-notes.html" class="internal-link" target="_self" rel="noopener nofollow">Wikilinks</a> in <a data-tooltip-position="top" aria-label="Properties" data-href="Properties" href="editing-and-formatting/properties.html" class="internal-link" target="_self" rel="noopener nofollow">frontmatter properties</a> are automatically recognized as Link objects. Links will render as a clickable link in the <a data-tooltip-position="top" aria-label="Views" data-href="Views" href="bases/views.html" class="internal-link" target="_self" rel="noopener nofollow">view</a>.</p></div><div class="el-ul"><ul class="has-list-bullet">
+<li data-line="0" dir="auto"><span class="list-bullet"></span>To construct a link, use the global <code>link</code> <a data-tooltip-position="top" aria-label="Functions" data-href="Functions" href="bases/functions.html" class="internal-link" target="_self" rel="noopener nofollow">function</a>, for example <code>link(&#34;filename&#34;)</code> or <code>link(&#34;https://obsidian.md&#34;)</code>.</li>
+<li data-line="1" dir="auto"><span class="list-bullet"></span>You can create a link from any string, for example, <code>link(file.ctime.date().toString())</code>.</li>
+<li data-line="2" dir="auto"><span class="list-bullet"></span>To set the display text, pass in an optional string or icon as a second parameter, for example <code>link(&#34;filename&#34;, &#34;display&#34;)</code> or <code>link(&#34;filename&#34;, icon(&#34;plus&#34;))</code>.</li>
+</ul></div><div class="el-p"><p dir="auto">A File object can be turned into a link using <code>file.asLink()</code> with an optional display text.</p></div><div class="el-p"><p dir="auto">Links can be compared with <code>==</code> and <code>!=</code>. They are equivalent as long as they point to the same file, or if the file does not exist when looked up, their link text must be identical.</p></div><div class="el-p"><p dir="auto">Links can be compared to files such as <code>file</code> or <code>this</code>. They will equate if the link resolves to the file. For example, <code>author == this</code>.</p></div><div class="el-p"><p dir="auto">Links can also be checked in list contains, for example, <code>authors.contains(this)</code>.</p></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"/><div class="toggle-background"></div></label><div class="theme-selector-container"><select id="theme_selector" class="theme-selector" title="Select theme" style="width: 100px;"></select></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="bases/bases-syntax.html#Bases_syntax_0" data-path="#Bases_syntax_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Bases syntax">Bases syntax</div></a><div class="tree-item-children"><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="bases/bases-syntax.html#Example_0" data-path="#Example_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Example">Example</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Filters_0" data-path="#Filters_0"><div class="tree-item-inner heading-link" heading-name="Filters">Filters</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Formulas_0" data-path="#Formulas_0"><div class="tree-item-inner heading-link" heading-name="Formulas">Formulas</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Properties_0" data-path="#Properties_0"><div class="tree-item-inner heading-link" heading-name="Properties">Properties</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="bases/bases-syntax.html#Summaries_0" data-path="#Summaries_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Summaries">Summaries</div></a><div class="tree-item-children"><div class="tree-item" data-depth="4"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Default_Summary_Formulas_0" data-path="#Default_Summary_Formulas_0"><div class="tree-item-inner heading-link" heading-name="Default Summary Formulas">Default Summary Formulas</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Views_0" data-path="#Views_0"><div class="tree-item-inner heading-link" heading-name="Views">Views</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="bases/bases-syntax.html#Properties_1" data-path="#Properties_1"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Properties">Properties</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Note_properties_0" data-path="#Note_properties_0"><div class="tree-item-inner heading-link" heading-name="Note properties">Note properties</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#File_properties_0" data-path="#File_properties_0"><div class="tree-item-inner heading-link" heading-name="File properties">File properties</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Access_properties_with_`this`_0" data-path="#Access_properties_with_`this`_0"><div class="tree-item-inner heading-link" heading-name="Access properties with `this`">Access properties with <code>this</code></div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="bases/bases-syntax.html#Operators_0" data-path="#Operators_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Operators">Operators</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Arithmetic_operators_0" data-path="#Arithmetic_operators_0"><div class="tree-item-inner heading-link" heading-name="Arithmetic operators">Arithmetic operators</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Date_arithmetic_0" data-path="#Date_arithmetic_0"><div class="tree-item-inner heading-link" heading-name="Date arithmetic">Date arithmetic</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Comparison_operators_0" data-path="#Comparison_operators_0"><div class="tree-item-inner heading-link" heading-name="Comparison operators">Comparison operators</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Boolean_operators_0" data-path="#Boolean_operators_0"><div class="tree-item-inner heading-link" heading-name="Boolean operators">Boolean operators</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Functions_0" data-path="#Functions_0"><div class="tree-item-inner heading-link" heading-name="Functions">Functions</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="bases/bases-syntax.html#Types_0" data-path="#Types_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Types">Types</div></a><div class="tree-item-children"><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Strings,_numbers,_and_booleans_0" data-path="#Strings,_numbers,_and_booleans_0"><div class="tree-item-inner heading-link" heading-name="Strings, numbers, and booleans">Strings, numbers, and booleans</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Dates_and_durations_0" data-path="#Dates_and_durations_0"><div class="tree-item-inner heading-link" heading-name="Dates and durations">Dates and durations</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Objects_and_lists_0" data-path="#Objects_and_lists_0"><div class="tree-item-inner heading-link" heading-name="Objects and lists">Objects and lists</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="bases/bases-syntax.html#Files_and_links_0" data-path="#Files_and_links_0"><div class="tree-item-inner heading-link" heading-name="Files and links">Files and links</div></a><div class="tree-item-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></div></body></html>
